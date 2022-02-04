@@ -402,10 +402,10 @@ a.scroll-top:hover {
 }
 
 /*----------  form  ----------*/
-.lezada-form form input[type="text"],
-.lezada-form form input[type="email"],
-.lezada-form form input[type="password"],
-.lezada-form form textarea {
+.junaiyet-form form input[type="text"],
+.junaiyet-form form input[type="email"],
+.junaiyet-form form input[type="password"],
+.junaiyet-form form textarea {
   font-size: 14px;
 
   display: block;
@@ -423,62 +423,62 @@ a.scroll-top:hover {
   background: transparent;
 }
 
-.lezada-form form input[type="text"]:hover,
-.lezada-form form input[type="text"]:active,
-.lezada-form form input[type="text"]:focus,
-.lezada-form form input[type="email"]:hover,
-.lezada-form form input[type="email"]:active,
-.lezada-form form input[type="email"]:focus,
-.lezada-form form input[type="password"]:hover,
-.lezada-form form input[type="password"]:active,
-.lezada-form form input[type="password"]:focus,
-.lezada-form form textarea:hover,
-.lezada-form form textarea:active,
-.lezada-form form textarea:focus {
+.junaiyet-form form input[type="text"]:hover,
+.junaiyet-form form input[type="text"]:active,
+.junaiyet-form form input[type="text"]:focus,
+.junaiyet-form form input[type="email"]:hover,
+.junaiyet-form form input[type="email"]:active,
+.junaiyet-form form input[type="email"]:focus,
+.junaiyet-form form input[type="password"]:hover,
+.junaiyet-form form input[type="password"]:active,
+.junaiyet-form form input[type="password"]:focus,
+.junaiyet-form form textarea:hover,
+.junaiyet-form form textarea:active,
+.junaiyet-form form textarea:focus {
   border-bottom-color: #333;
 }
 
-.lezada-form form ::-webkit-input-placeholder {
+.junaiyet-form form ::-webkit-input-placeholder {
   opacity: 1;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   /* Firefox */
 }
 
-.lezada-form form ::-moz-placeholder {
+.junaiyet-form form ::-moz-placeholder {
   opacity: 1;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   /* Firefox */
 }
 
-.lezada-form form :-ms-input-placeholder {
+.junaiyet-form form :-ms-input-placeholder {
   opacity: 1;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   /* Firefox */
 }
 
-.lezada-form form ::-ms-input-placeholder {
+.junaiyet-form form ::-ms-input-placeholder {
   opacity: 1;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   /* Firefox */
 }
 
-.lezada-form form ::placeholder {
+.junaiyet-form form ::placeholder {
   opacity: 1;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #777;
   /* Firefox */
 }
 
-.lezada-form form :-ms-input-placeholder {
+.junaiyet-form form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #777;
 }
 
-.lezada-form form ::-ms-input-placeholder {
+.junaiyet-form form ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #777;
 }
@@ -6344,7 +6344,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 @media only screen and (max-width: 575px) {
-  .decor-single-slider-content .slider-content a.lezada-button {
+  .decor-single-slider-content .slider-content a.junaiyet-button {
     font-size: 12px;
 
     padding: 10px 20px;
@@ -6352,7 +6352,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 @media only screen and (max-width: 479px) {
-  .decor-single-slider-content .slider-content a.lezada-button {
+  .decor-single-slider-content .slider-content a.junaiyet-button {
     font-size: 10px;
 
     padding: 5px 15px;
@@ -6872,43 +6872,43 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   }
 }
 
-.lezada-slick-slider--fullscreen {
+.junaiyet-slick-slider--fullscreen {
   position: relative;
 
   height: 700px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-  .lezada-slick-slider--fullscreen {
+  .junaiyet-slick-slider--fullscreen {
     height: 600px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .lezada-slick-slider--fullscreen {
+  .junaiyet-slick-slider--fullscreen {
     height: 500px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .lezada-slick-slider--fullscreen {
+  .junaiyet-slick-slider--fullscreen {
     height: 500px;
   }
 }
 
 @media only screen and (max-width: 479px) {
-  .lezada-slick-slider--fullscreen {
+  .junaiyet-slick-slider--fullscreen {
     height: 400px;
   }
 }
 
-.lezada-slick-slider--fullscreen .slick-list,
-.lezada-slick-slider--fullscreen .slick-track,
-.lezada-slick-slider--fullscreen .slick-slide > div {
+.junaiyet-slick-slider--fullscreen .slick-list,
+.junaiyet-slick-slider--fullscreen .slick-track,
+.junaiyet-slick-slider--fullscreen .slick-slide > div {
   height: 100%;
 }
 
-.lezada-slick-slider--fullscreen .slick-active .lezada-single-slider__content * {
+.junaiyet-slick-slider--fullscreen .slick-active .junaiyet-single-slider__content * {
   -webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;
 
@@ -6916,43 +6916,43 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
           animation-fill-mode: both;
 }
 
-.lezada-slick-slider--fullscreen .slick-active .lezada-single-slider__content .subtitle {
+.junaiyet-slick-slider--fullscreen .slick-active .junaiyet-single-slider__content .subtitle {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
 
-.lezada-slick-slider--fullscreen .slick-active .lezada-single-slider__content .main-title {
+.junaiyet-slick-slider--fullscreen .slick-active .junaiyet-single-slider__content .main-title {
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
 
-.lezada-slick-slider--fullscreen .slick-active .lezada-single-slider__content .lezada-button {
+.junaiyet-slick-slider--fullscreen .slick-active .junaiyet-single-slider__content .junaiyet-button {
   -webkit-animation-duration: 2.5s;
           animation-duration: 2.5s;
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider {
   width: 100%;
   height: 100%;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content {
   padding-right: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
-  .lezada-slick-slider--fullscreen .lezada-single-slider__content {
+  .junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content {
     padding: 0 15px;
   }
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .subtitle {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .subtitle {
   font-size: 16px;
   font-weight: 600;
 
@@ -6963,11 +6963,11 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #ffffff;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .subtitle--black {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .subtitle--black {
   color: #333;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .main-title {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .main-title {
   font-size: 56px;
   line-height: 71px;
 
@@ -6976,72 +6976,72 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #ffffff;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .main-title--black {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .main-title--black {
   color: #333;
 }
 
 @media only screen and (max-width: 767px) {
-  .lezada-slick-slider--fullscreen .lezada-single-slider__content .main-title {
+  .junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .main-title {
     font-size: 40px;
     line-height: 60px;
   }
 }
 
 @media only screen and (max-width: 479px) {
-  .lezada-slick-slider--fullscreen .lezada-single-slider__content .main-title {
+  .junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .main-title {
     font-size: 30px;
     line-height: 40px;
   }
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .lezada-button {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .junaiyet-button {
   color: #333 !important;
   border-color: #ffffff;
   background-color: #ffffff;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .lezada-button:hover {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .junaiyet-button:hover {
   color: #ffffff !important;
   border-color: #ffffff;
   background-color: transparent;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .lezada-button--red {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .junaiyet-button--red {
   color: #ffffff !important;
   border-color: #d3122a;
   background-color: #d3122a;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .lezada-button--dark {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .junaiyet-button--dark {
   color: #fff !important;
   border-color: #333;
   background-color: #333;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content .lezada-button--dark:hover {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content .junaiyet-button--dark:hover {
   color: #333 !important;
   border-color: #333;
   background-color: transparent;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style {
   padding-top: 100px;
   padding-left: 15px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style {
+  .junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style {
     padding-top: 60px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style {
+  .junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style {
     padding-top: 50px;
   }
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style .subtitle {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style .subtitle {
   font-family: "Spectral", serif;
   font-weight: 300;
   font-style: italic;
@@ -7049,25 +7049,25 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   text-transform: capitalize;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style .main-title {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style .main-title {
   font-family: "Spectral", serif;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style .lezada-button {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style .junaiyet-button {
   color: #ffffff !important;
   background-color: transparent;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider__content--spectral-style .lezada-button:hover {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider__content--spectral-style .junaiyet-button:hover {
   color: #333 !important;
   background-color: #ffffff;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider--overlay {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider--overlay {
   position: relative;
 }
 
-.lezada-slick-slider--fullscreen .lezada-single-slider--overlay:before {
+.junaiyet-slick-slider--fullscreen .junaiyet-single-slider--overlay:before {
   position: absolute;
 
   width: 100%;
@@ -7079,7 +7079,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background: #000000;
 }
 
-.lezada-slick-slider--fullscreen .slick-arrow {
+.junaiyet-slick-slider--fullscreen .slick-arrow {
   font-size: 18px;
   line-height: 51px;
 
@@ -7109,27 +7109,27 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 @media only screen and (max-width: 767px) {
-  .lezada-slick-slider--fullscreen .slick-arrow {
+  .junaiyet-slick-slider--fullscreen .slick-arrow {
     display: none;
   }
 }
 
-.lezada-slick-slider--fullscreen .slick-arrow:hover {
+.junaiyet-slick-slider--fullscreen .slick-arrow:hover {
   color: #ffffff;
   background-color: #333;
 }
 
-.lezada-slick-slider--fullscreen .slick-arrow.slick-prev {
+.junaiyet-slick-slider--fullscreen .slick-arrow.slick-prev {
   right: auto;
   left: 15px;
 }
 
-.lezada-slick-slider--fullscreen .slick-arrow.slick-next {
+.junaiyet-slick-slider--fullscreen .slick-arrow.slick-next {
   right: 15px;
   left: auto;
 }
 
-.lezada-slick-slider--fullscreen .slick-dots {
+.junaiyet-slick-slider--fullscreen .slick-dots {
   position: absolute;
   bottom: 30px;
   left: 50%;
@@ -7143,7 +7143,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
           transform: translateX(-50%);
 }
 
-.lezada-slick-slider--fullscreen .slick-dots li button {
+.junaiyet-slick-slider--fullscreen .slick-dots li button {
   font-size: 0;
 
   width: 12px;
@@ -7155,74 +7155,74 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background: #999;
 }
 
-.lezada-slick-slider--fullscreen .slick-dots li.slick-active button {
+.junaiyet-slick-slider--fullscreen .slick-dots li.slick-active button {
   background: #fff;
 }
 
-.lezada-slick-slider--fullscreen:hover .slick-arrow {
+.junaiyet-slick-slider--fullscreen:hover .slick-arrow {
   visibility: visible;
 
   opacity: 1;
 }
 
-.lezada-slick-slider--fullscreen:hover .slick-arrow.slick-prev {
+.junaiyet-slick-slider--fullscreen:hover .slick-arrow.slick-prev {
   right: auto;
   left: 30px;
 }
 
-.lezada-slick-slider--fullscreen:hover .slick-arrow.slick-next {
+.junaiyet-slick-slider--fullscreen:hover .slick-arrow.slick-next {
   right: 30px;
   left: auto;
 }
 
-.lezada-slick-slider--swimsuit-home {
+.junaiyet-slick-slider--swimsuit-home {
   height: 840px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-  .lezada-slick-slider--swimsuit-home {
+  .junaiyet-slick-slider--swimsuit-home {
     height: 800px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .lezada-slick-slider--swimsuit-home {
+  .junaiyet-slick-slider--swimsuit-home {
     height: 750px;
   }
 }
 
 @media only screen and (max-width: 479px) {
-  .lezada-slick-slider--swimsuit-home {
+  .junaiyet-slick-slider--swimsuit-home {
     height: 550px;
   }
 }
 
-.lezada-slick-slider--swimsuit-home .slick-list,
-.lezada-slick-slider--swimsuit-home .slick-track,
-.lezada-slick-slider--swimsuit-home .slick-slide > div {
+.junaiyet-slick-slider--swimsuit-home .slick-list,
+.junaiyet-slick-slider--swimsuit-home .slick-track,
+.junaiyet-slick-slider--swimsuit-home .slick-slide > div {
   height: 100%;
 }
 
-.lezada-slick-slider--swimsuit-home .lezada-single-slider__content {
+.junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content {
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.lezada-slick-slider--swimsuit-home .lezada-single-slider__content .swimsuit-home {
+.junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content .swimsuit-home {
   width: 100%;
   height: 100%;
 }
 
-.lezada-slick-slider--swimsuit-home .lezada-single-slider__content .swimsuit-home .image {
+.junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content .swimsuit-home .image {
   margin-bottom: 30px;
 }
 
-.lezada-slick-slider--swimsuit-home .lezada-single-slider__content .swimsuit-home .image img {
+.junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content .swimsuit-home .image img {
   margin-right: auto;
   margin-left: auto;
 }
 
-.lezada-slick-slider--swimsuit-home .lezada-single-slider__content .swimsuit-home .content .title {
+.junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content .swimsuit-home .content .title {
   font-size: 30px;
   font-weight: 400;
 
@@ -7232,29 +7232,29 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 @media only screen and (max-width: 479px) {
-  .lezada-slick-slider--swimsuit-home .lezada-single-slider__content .swimsuit-home .content .title {
+  .junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content .swimsuit-home .content .title {
     font-size: 25px;
   }
 }
 
-.lezada-slick-slider--swimsuit-home .lezada-single-slider__content .swimsuit-home .content .price {
+.junaiyet-slick-slider--swimsuit-home .junaiyet-single-slider__content .swimsuit-home .content .price {
   font-size: 17px;
   font-weight: 600;
 
   color: #e75e47;
 }
 
-.lezada-slick-slider--swimsuit-home .slick-dots {
+.junaiyet-slick-slider--swimsuit-home .slick-dots {
   position: absolute;
   bottom: 30px;
   left: 30px;
 }
 
-.lezada-slick-slider--swimsuit-home .slick-dots li {
+.junaiyet-slick-slider--swimsuit-home .slick-dots li {
   display: inline-block;
 }
 
-.lezada-slick-slider--swimsuit-home .slick-dots li button {
+.junaiyet-slick-slider--swimsuit-home .slick-dots li button {
   font-size: 0;
 
   width: 20px;
@@ -7268,53 +7268,53 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background-color: #000;
 }
 
-.lezada-slick-slider--swimsuit-home .slick-dots li.slick-active button {
+.junaiyet-slick-slider--swimsuit-home .slick-dots li.slick-active button {
   opacity: 1;
 }
 
-.slider-area--transparent-header .lezada-slick-slider--fullscreen {
+.slider-area--transparent-header .junaiyet-slick-slider--fullscreen {
   height: 900px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-  .slider-area--transparent-header .lezada-slick-slider--fullscreen {
+  .slider-area--transparent-header .junaiyet-slick-slider--fullscreen {
     height: 700px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .slider-area--transparent-header .lezada-slick-slider--fullscreen {
+  .slider-area--transparent-header .junaiyet-slick-slider--fullscreen {
     height: 700px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .slider-area--transparent-header .lezada-slick-slider--fullscreen {
+  .slider-area--transparent-header .junaiyet-slick-slider--fullscreen {
     height: 600px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .slider-area--transparent-header .lezada-slick-slider--fullscreen {
+  .slider-area--transparent-header .junaiyet-slick-slider--fullscreen {
     height: 550px;
   }
 }
 
 @media only screen and (max-width: 479px) {
-  .slider-area--transparent-header .lezada-slick-slider--fullscreen {
+  .slider-area--transparent-header .junaiyet-slick-slider--fullscreen {
     height: 500px;
   }
 }
 
-.lezada-single-slider--cover {
+.junaiyet-single-slider--cover {
   background-size: cover;
 }
 
-.lezada-single-slider--overlay {
+.junaiyet-single-slider--overlay {
   position: relative;
 }
 
-.lezada-single-slider--overlay:before {
+.junaiyet-single-slider--overlay:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -8125,7 +8125,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 =           08. button            =
 =============================================*/
 /*----------  default style  ----------*/
-.lezada-button {
+.junaiyet-button {
   font-weight: 500;
 
   display: inline-block;
@@ -8144,54 +8144,54 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   /*----------  icon left style  ----------*/
 }
 
-.lezada-button:hover {
+.junaiyet-button:hover {
   color: #333 !important;
   background-color: transparent;
 }
 
-.lezada-button--small {
+.junaiyet-button--small {
   font-size: 12px;
 
   padding: 8px 15px;
 }
 
-.lezada-button--small--style2 {
+.junaiyet-button--small--style2 {
   padding: 7px 15px;
 }
 
-.lezada-button--medium {
+.junaiyet-button--medium {
   font-size: 14px;
 
   padding: 10px 45px;
 }
 
-.lezada-button--large {
+.junaiyet-button--large {
   font-size: 16px;
 
   padding: 12px 35px;
 }
 
-.lezada-button--xl {
+.junaiyet-button--xl {
   font-size: 18px;
 
   padding: 20px 35px;
 }
 
-.lezada-button--icon {
+.junaiyet-button--icon {
   /*----------  icon left style  ----------*/
   /*----------  icon right style  ----------*/
 }
 
-.lezada-button--icon--left i {
+.junaiyet-button--icon--left i {
   margin-right: 5px;
 }
 
-.lezada-button--icon--right i {
+.junaiyet-button--icon--right i {
   margin-left: 5px;
 }
 
-/*----------  lezada button 2  ----------*/
-.lezada-button-2 {
+/*----------  junaiyet button 2  ----------*/
+.junaiyet-button-2 {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -8206,7 +8206,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #333;
 }
 
-.lezada-button-2:after {
+.junaiyet-button-2:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -8220,7 +8220,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background-color: #333;
 }
 
-.lezada-button-2:before {
+.junaiyet-button-2:before {
   font-family: "Ionicons";
   font-size: 0;
   font-weight: 400;
@@ -8239,11 +8239,11 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   opacity: 0;
 }
 
-.lezada-button-2:hover {
+.junaiyet-button-2:hover {
   color: #d3122a;
 }
 
-.lezada-button-2:hover:before {
+.junaiyet-button-2:hover:before {
   font-size: 14px;
   line-height: 0;
 
@@ -8255,7 +8255,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 /*----------  load more button  ----------*/
-.lezada-loadmore-button {
+.junaiyet-loadmore-button {
   font-weight: 500;
 
   letter-spacing: 1px;
@@ -8263,11 +8263,11 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #333;
 }
 
-.lezada-loadmore-button:hover {
+.junaiyet-loadmore-button:hover {
   color: #333;
 }
 
-.lezada-loadmore-button i {
+.junaiyet-loadmore-button i {
   font-size: 16px;
   font-weight: 600;
 
@@ -8279,7 +8279,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 /*----------  shopping more button  ----------*/
-.lezada-shopping-more-button {
+.junaiyet-shopping-more-button {
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
@@ -8294,7 +8294,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   border-bottom: 1px solid #d6d6d6;
 }
 
-.lezada-shopping-more-button:hover {
+.junaiyet-shopping-more-button:hover {
   color: #333;
   border-color: #333;
 }
@@ -8777,12 +8777,12 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   }
 }
 
-.countdown-wrapper--style2 a.lezada-button:hover {
+.countdown-wrapper--style2 a.junaiyet-button:hover {
   color: #ffffff !important;
   border-color: #ffffff;
 }
 
-.countdown-wrapper--white-bg a.lezada-button:hover {
+.countdown-wrapper--white-bg a.junaiyet-button:hover {
   color: #000000 !important;
   border-color: #000000;
 }
@@ -10339,11 +10339,11 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 =            17. widget            =
 =============================================*/
 /*----------  default  ----------*/
-.lezada-widget {
+.junaiyet-widget {
   /*----------  widget title  ----------*/
 }
 
-.lezada-widget .widget-title {
+.junaiyet-widget .widget-title {
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -10351,7 +10351,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #333;
 }
 
-.lezada-widget .widget-content {
+.junaiyet-widget .widget-content {
   font-size: 15px;
   line-height: 26px;
 
@@ -10836,7 +10836,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   display: block;
 }
 
-.single-banner--hoverzoom > a .banner-content--banner-type .lezada-button-link {
+.single-banner--hoverzoom > a .banner-content--banner-type .junaiyet-button-link {
   font-size: 14px;
   font-weight: 500;
 
@@ -10854,7 +10854,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background-color: transparent;
 }
 
-.single-banner--hoverzoom > a .banner-content--banner-type .lezada-button-link:after {
+.single-banner--hoverzoom > a .banner-content--banner-type .junaiyet-button-link:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -10867,11 +10867,11 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background-color: #333;
 }
 
-.single-banner--hoverzoom > a .banner-content--banner-type .lezada-button-link:hover {
+.single-banner--hoverzoom > a .banner-content--banner-type .junaiyet-button-link:hover {
   color: #d3122a;
 }
 
-.single-banner--hoverzoom > a .banner-content--banner-type .lezada-button-link:hover:after {
+.single-banner--hoverzoom > a .banner-content--banner-type .junaiyet-button-link:hover:after {
   background-color: #d3122a;
 }
 
@@ -11468,7 +11468,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   }
 }
 
-.fashion-home-intro a.lezada-shop-link {
+.fashion-home-intro a.junaiyet-shop-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
@@ -11480,7 +11480,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   border-bottom: 1px solid #d6d6d6;
 }
 
-.fashion-home-intro a.lezada-shop-link:hover {
+.fashion-home-intro a.junaiyet-shop-link:hover {
   border-color: #333;
 }
 
@@ -11565,7 +11565,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   }
 }
 
-.cosmetics-home-intro a.lezada-shop-link {
+.cosmetics-home-intro a.junaiyet-shop-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
@@ -11577,7 +11577,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   border-bottom: 1px solid #d6d6d6;
 }
 
-.cosmetics-home-intro a.lezada-shop-link:hover {
+.cosmetics-home-intro a.junaiyet-shop-link:hover {
   border-color: #333;
 }
 
@@ -12363,7 +12363,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   /*----------  long description  ----------*/
   /*----------  additional information  ----------*/
   /*----------  review section     ----------*/
-  /*----------  lezada form review  ----------*/
+  /*----------  junaiyet form review  ----------*/
   /*----------  shop product image gallery  ----------*/
   /*----------  variation image  ----------*/
   /*----------  extra info area  ----------*/
@@ -12454,7 +12454,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   line-height: 24px;
 }
 
-.shop-product__buttons .lezada-compare-button {
+.shop-product__buttons .junaiyet-compare-button {
   font-size: 0;
   line-height: 40px;
 
@@ -12468,19 +12468,19 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   border: 1px solid #d8d8d8;
 }
 
-.shop-product__buttons .lezada-compare-button i {
+.shop-product__buttons .junaiyet-compare-button i {
   font-size: 20px;
   line-height: 40px;
 
   color: #ababab;
 }
 
-.shop-product__buttons .lezada-compare-button:hover {
+.shop-product__buttons .junaiyet-compare-button:hover {
   border-color: #333;
   background-color: #333;
 }
 
-.shop-product__buttons .lezada-compare-button:hover i {
+.shop-product__buttons .junaiyet-compare-button:hover i {
   color: #fff;
 }
 
@@ -12690,7 +12690,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #333;
 }
 
-.shop-product .lezada-form--review .rating-title {
+.shop-product .junaiyet-form--review .rating-title {
   font-size: 14px;
   font-weight: 500;
   line-height: 25px;
@@ -12701,7 +12701,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #333;
 }
 
-.shop-product .lezada-form--review .product-rating i {
+.shop-product .junaiyet-form--review .product-rating i {
   cursor: pointer;
 }
 
@@ -14366,13 +14366,13 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   }
 }
 
-.lezada-cta-button {
+.junaiyet-cta-button {
   color: #333 !important;
   border-color: #fff;
   background-color: #fff;
 }
 
-.lezada-cta-button:hover {
+.junaiyet-cta-button:hover {
   color: #fff !important;
   border-color: #333;
   background-color: #333;

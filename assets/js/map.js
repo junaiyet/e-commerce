@@ -172,7 +172,7 @@ function init() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.7590615,-73.969231),
         map: map,
-        title: 'Lezada',
+        title: 'junaiyet',
         icon: "assets/images/icons/map_marker.png"
     });
 }
@@ -352,7 +352,7 @@ function init2() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.7590615,-73.969231),
         map: map,
-        title: 'Lezada',
+        title: 'junaiyet',
         icon: "assets/images/icons/map_marker.png"
     });
 }
@@ -410,7 +410,7 @@ function init3() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.7590615,-73.969231),
         map: map,
-        title: 'Lezada',
+        title: 'junaiyet',
         icon: "assets/images/icons/map_marker.png"
     });
 }
@@ -644,7 +644,7 @@ function init4() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.7590615,-73.969231),
         map: map,
-        title: 'Lezada',
+        title: 'junaiyet',
         icon: "assets/images/icons/map_marker.png"
     });
 }
@@ -803,7 +803,7 @@ function init5() {
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(40.7590615,-73.969231),
         map: map,
-        title: 'Lezada',
+        title: 'junaiyet',
         icon: "assets/images/icons/map_marker.png"
     });
 }

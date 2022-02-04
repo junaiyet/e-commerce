@@ -238,14 +238,14 @@
   }
 
   /*----------  slick slider activation  ----------*/
-  var $lezadaSlickSlider = $(".lezada-slick-slider");
+  var $junaiyetSlickSlider = $(".junaiyet-slick-slider");
 
   /*For RTL*/
   if ($html.attr("dir") == "rtl" || $body.attr("dir") == "rtl") {
-    $lezadaSlickSlider.attr("dir", "rtl");
+    $junaiyetSlickSlider.attr("dir", "rtl");
   }
 
-  $lezadaSlickSlider.each(function () {
+  $junaiyetSlickSlider.each(function () {
     /*Setting Variables*/
     var $this = $(this),
       $setting = $this.data("slick-setting"),
