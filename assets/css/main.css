@@ -16538,3 +16538,114 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 
 /*=====  End of 41. compare  ======*/
+
+
+/* banner-part */
+.banner-part{
+  margin-bottom: 80px;
+}
+.shop-btn{
+  font-size: 14px;
+  padding: 10px 45px;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff ;
+    border: 1px solid #333;
+    border-radius: 0;
+    background-color: #333;
+
+}
+.shop-btn:hover {
+  color: #333 !important;
+  background-color: transparent;
+}
+.banner-part .banner-item{
+  position: relative;
+  margin: 0 150px;
+
+}
+.banner-part .banner-item .banner-content{
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+.banner-part .banner-item .banner-content .color-title--brown{
+  color: #7a9f63;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 8px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.banner-part .banner-item .banner-content .main-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 35px;
+  color: #333333;
+}
+.banner-part .prevarrow{
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  color: #b7b7b7;
+}
+.banner-part .nextarrow{
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  color: #b7b7b7;
+}
+@media (max-width: 1200px) {
+  .banner-part .banner-item{
+    position: relative;
+    margin: 0 0px;
+  
+  }
+}
+.banner-part .prevarrow{
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  color: #b7b7b7;
+}
+.banner-part .nextarrow{
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  color: #b7b7b7;
+}
+
+
+.product-prevarrow{
+  position: absolute;
+  left: -20px;
+  top: 45%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  color: #b7b7b7;
+  z-index: 99;
+}
+.product-nextarrow {
+  position: absolute;
+  right: -20px;
+  top: 45%;
+  font-size: 30px;
+  transform: translateY(-50%);
+  color: #b7b7b7;
+}
+/*  */

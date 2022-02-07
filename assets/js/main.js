@@ -1,6 +1,84 @@
 (function ($) {
   ("use strict");
 
+  $('.banner-main-content').slick({
+    dots: false,
+    infinite: true,
+    Autoplay:true,
+    arrows:true,
+    prevArrow:'<i class="fas fa-chevron-left prevarrow"></i>',
+    nextArrow:'<i class="fas fa-chevron-right nextarrow"></i>',
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          arrows:false,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows:false,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows:false,
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+  $('.product-slider').slick({
+    dots: false,
+    infinite: true,
+    Autoplay:true,
+    arrows:true,
+    prevArrow:'<i class="fas fa-chevron-left product-prevarrow"></i>',
+    nextArrow:'<i class="fas fa-chevron-right product-nextarrow"></i>',
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+
+    responsive: [
+ 
+      {
+        breakpoint: 999,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows:false,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows:false,
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+  
   /*----------  Menu sticky and scroll top  ----------*/
 
   var windows = $(window);
@@ -238,101 +316,10 @@
   }
 
   /*----------  slick slider activation  ----------*/
-  var $junaiyetSlickSlider = $(".junaiyet-slick-slider");
 
   /*For RTL*/
-  if ($html.attr("dir") == "rtl" || $body.attr("dir") == "rtl") {
-    $junaiyetSlickSlider.attr("dir", "rtl");
-  }
 
-  $junaiyetSlickSlider.each(function () {
-    /*Setting Variables*/
-    var $this = $(this),
-      $setting = $this.data("slick-setting"),
-      $autoPlay = $setting.autoplay ? $setting.autoplay : false,
-      $autoPlaySpeed = parseInt($setting.autoplaySpeed, 10) || 2000,
-      $speed = parseInt($setting.speed, 10) || 2000,
-      $asNavFor = $setting.asNavFor ? $setting.asNavFor : null,
-      $appendArrows = $setting.appendArrows ? $setting.appendArrows : $this,
-      $appendDots = $setting.appendDots ? $setting.appendDots : $this,
-      $arrows = $setting.arrows ? $setting.arrows : false,
-      $prevArrow = $setting.prevArrow
-        ? '<button class="' +
-          $setting.prevArrow.buttonClass +
-          '"><i class="' +
-          $setting.prevArrow.iconClass +
-          '"></i></button>'
-        : '<button class="slick-prev">previous</button>',
-      $nextArrow = $setting.nextArrow
-        ? '<button class="' +
-          $setting.nextArrow.buttonClass +
-          '"><i class="' +
-          $setting.nextArrow.iconClass +
-          '"></i></button>'
-        : '<button class="slick-next">next</button>',
-      $centerMode = $setting.centerMode ? $setting.centerMode : false,
-      $centerPadding = $setting.centerPadding ? $setting.centerPadding : "50px",
-      $dots = $setting.dots ? $setting.dots : false,
-      $fade = $setting.fade ? $setting.fade : false,
-      $focusOnSelect = $setting.focusOnSelect ? $setting.focusOnSelect : false,
-      $infinite = $setting.infinite ? $setting.infinite : true,
-      $pauseOnHover = $setting.pauseOnHover ? $setting.pauseOnHover : true,
-      $rows = parseInt($setting.rows, 10) || 1,
-      $slidesToShow = parseInt($setting.slidesToShow, 10) || 1,
-      $slidesToScroll = parseInt($setting.slidesToScroll, 10) || 1,
-      $swipe = $setting.swipe ? $setting.swipe : true,
-      $swipeToSlide = $setting.swipeToSlide ? $setting.swipeToSlide : false,
-      $variableWidth = $setting.variableWidth ? $setting.variableWidth : false,
-      $vertical = $setting.vertical ? $setting.vertical : false,
-      $verticalSwiping = $setting.verticalSwiping
-        ? $setting.verticalSwiping
-        : false,
-      $rtl =
-        $setting.rtl || $html.attr('dir="rtl"') || $body.attr('dir="rtl"')
-          ? true
-          : false;
 
-    /*Responsive Variable, Array & Loops*/
-    var $responsiveSetting =
-        typeof $this.data("slick-responsive") !== "undefined"
-          ? $this.data("slick-responsive")
-          : "",
-      $responsiveSettingLength = $responsiveSetting.length,
-      $responsiveArray = [];
-    for (var i = 0; i < $responsiveSettingLength; i++) {
-      $responsiveArray[i] = $responsiveSetting[i];
-    }
-
-    /*Slider Start*/
-    $this.slick({
-      autoplay: $autoPlay,
-      autoplaySpeed: $autoPlaySpeed,
-      speed: $speed,
-      asNavFor: $asNavFor,
-      appendArrows: $appendArrows,
-      appendDots: $appendDots,
-      arrows: $arrows,
-      dots: $dots,
-      centerMode: $centerMode,
-      centerPadding: $centerPadding,
-      fade: $fade,
-      focusOnSelect: $focusOnSelect,
-      infinite: $infinite,
-      pauseOnHover: $pauseOnHover,
-      rows: $rows,
-      slidesToShow: $slidesToShow,
-      slidesToScroll: $slidesToScroll,
-      swipe: $swipe,
-      swipeToSlide: $swipeToSlide,
-      variableWidth: $variableWidth,
-      vertical: $vertical,
-      verticalSwiping: $verticalSwiping,
-      rtl: $rtl,
-      prevArrow: $prevArrow,
-      nextArrow: $nextArrow,
-      responsive: $responsiveArray
-    });
-  });
 
   /*----------  Masonry Activation  ----------*/
 
@@ -415,171 +402,171 @@
 
   /*----------  instagram image slider  ----------*/
 
-  jQuery(window).on("load", function () {
-    // User Changeable Access
-    var instagramFeedGrid = function () {
-      $.instagramFeed({
-        username: "creative.devitems",
-        container: "#instagramFeed",
-        display_profile: false,
-        display_biography: false,
-        display_gallery: true,
-        callback: null,
-        styling: false,
-        items: 8
-      });
-    };
+  // jQuery(window).on("load", function () {
+  //   // User Changeable Access
+  //   var instagramFeedGrid = function () {
+  //     $.instagramFeed({
+  //       username: "creative.devitems",
+  //       container: "#instagramFeed",
+  //       display_profile: false,
+  //       display_biography: false,
+  //       display_gallery: true,
+  //       callback: null,
+  //       styling: false,
+  //       items: 8
+  //     });
+  //   };
 
-    instagramFeedGrid();
+  //   instagramFeedGrid();
 
-    var instagramFeedSlider = function () {
-      $.instagramFeed({
-        username: "portfolio.devitems",
-        container: "#instagramFeedTwo",
-        display_profile: false,
-        display_biography: false,
-        display_gallery: true,
-        callback: null,
-        styling: false,
-        items: 8
-      });
-    };
+  //   var instagramFeedSlider = function () {
+  //     $.instagramFeed({
+  //       username: "portfolio.devitems",
+  //       container: "#instagramFeedTwo",
+  //       display_profile: false,
+  //       display_biography: false,
+  //       display_gallery: true,
+  //       callback: null,
+  //       styling: false,
+  //       items: 8
+  //     });
+  //   };
 
-    instagramFeedSlider();
+  //   instagramFeedSlider();
 
-    var instagramFeedSliderTwo = function () {
-      $.instagramFeed({
-        username: "creative.devitems",
-        container: "#instagramFeedThree",
-        display_profile: false,
-        display_biography: false,
-        display_gallery: true,
-        callback: null,
-        styling: false,
-        items: 8
-      });
-    };
+  //   var instagramFeedSliderTwo = function () {
+  //     $.instagramFeed({
+  //       username: "creative.devitems",
+  //       container: "#instagramFeedThree",
+  //       display_profile: false,
+  //       display_biography: false,
+  //       display_gallery: true,
+  //       callback: null,
+  //       styling: false,
+  //       items: 8
+  //     });
+  //   };
 
-    instagramFeedSliderTwo();
+  //   instagramFeedSliderTwo();
 
-    $("#instagramFeedThree").on("DOMNodeInserted", function (e) {
-      if (e.target.className === "instagram_gallery") {
-        $(".instagram-carousel .instagram_gallery").slick({
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: false,
-          dots: false,
-          arrows: true,
-          prevArrow:
-            '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-          nextArrow:
-            '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
-          responsive: [
-            {
-              breakpoint: 1499,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 1199,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 991,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 575,
-              settings: {
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 479,
-              settings: {
-                slidesToShow: 1
-              }
-            }
-          ]
-        });
-      }
-    });
+  //   $("#instagramFeedThree").on("DOMNodeInserted", function (e) {
+  //     if (e.target.className === "instagram_gallery") {
+  //       $(".instagram-carousel .instagram_gallery").slick({
+  //         slidesToShow: 3,
+  //         slidesToScroll: 1,
+  //         autoplay: false,
+  //         dots: false,
+  //         arrows: true,
+  //         prevArrow:
+  //           '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
+  //         nextArrow:
+  //           '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+  //         responsive: [
+  //           {
+  //             breakpoint: 1499,
+  //             settings: {
+  //               slidesToShow: 3
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 1199,
+  //             settings: {
+  //               slidesToShow: 3
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 991,
+  //             settings: {
+  //               slidesToShow: 2
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 767,
+  //             settings: {
+  //               slidesToShow: 1
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 575,
+  //             settings: {
+  //               slidesToShow: 1
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 479,
+  //             settings: {
+  //               slidesToShow: 1
+  //             }
+  //           }
+  //         ]
+  //       });
+  //     }
+  //   });
 
-    $("#instagramFeedTwo").on("DOMNodeInserted", function (e) {
-      if (e.target.className === "instagram_gallery") {
-        $(".instagram-carousel-type2 .instagram_gallery").slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          autoplay: false,
-          dots: false,
-          arrows: true,
-          prevArrow:
-            '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-          nextArrow:
-            '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
-          responsive: [
-            {
-              breakpoint: 1499,
-              settings: {
-                slidesToShow: 4
-              }
-            },
-            {
-              breakpoint: 1199,
-              settings: {
-                slidesToShow: 4
-              }
-            },
-            {
-              breakpoint: 991,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 575,
-              settings: {
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 479,
-              settings: {
-                slidesToShow: 1
-              }
-            }
-          ]
-        });
-      }
-    });
+  //   $("#instagramFeedTwo").on("DOMNodeInserted", function (e) {
+  //     if (e.target.className === "instagram_gallery") {
+  //       $(".instagram-carousel-type2 .instagram_gallery").slick({
+  //         slidesToShow: 4,
+  //         slidesToScroll: 1,
+  //         autoplay: false,
+  //         dots: false,
+  //         arrows: true,
+  //         prevArrow:
+  //           '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
+  //         nextArrow:
+  //           '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+  //         responsive: [
+  //           {
+  //             breakpoint: 1499,
+  //             settings: {
+  //               slidesToShow: 4
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 1199,
+  //             settings: {
+  //               slidesToShow: 4
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 991,
+  //             settings: {
+  //               slidesToShow: 2
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 767,
+  //             settings: {
+  //               slidesToShow: 1
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 575,
+  //             settings: {
+  //               slidesToShow: 1
+  //             }
+  //           },
+  //           {
+  //             breakpoint: 479,
+  //             settings: {
+  //               slidesToShow: 1
+  //             }
+  //           }
+  //         ]
+  //       });
+  //     }
+  //   });
 
-    /*----------  newsletter popup  ----------*/
+  //   /*----------  newsletter popup  ----------*/
 
-    if (screenSize >= 767) {
-      $("#newsletter-popup-body").addClass("newsletter-overlay-active");
+  //   if (screenSize >= 767) {
+  //     $("#newsletter-popup-body").addClass("newsletter-overlay-active");
 
-      setTimeout(function () {
-        $("#newsletter-content").addClass("show-popup");
-      }, 1000);
-    }
-  });
+  //     setTimeout(function () {
+  //       $("#newsletter-content").addClass("show-popup");
+  //     }, 1000);
+  //   }
+  // });
 
   /*----------  cloth tag positioning  ----------*/
 
@@ -1363,4 +1350,13 @@
   });
 
   /*=====  End of background image  ======*/
+
+
+
+
+
+
+  // 
+
+  // 
 })(jQuery);
